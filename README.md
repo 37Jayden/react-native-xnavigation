@@ -12,7 +12,7 @@ React Navigaion 6.x
 
 安装本库
 ```
-npm install react-xnavigation
+npm install react-native-xnavigation
 ```
 
 本库依赖了如下库
@@ -27,7 +27,7 @@ npm install react-xnavigation
   },
 ```
 
-iOS、Android需要link react-native-screens react-native-safe-area-context react-native-gesture-handler 这三个库
+iOS、Android需要link react-native-screens、react-native-safe-area-context、 react-native-gesture-handler 这三个库
 
 ## Hello React XNavigation
 
@@ -57,7 +57,7 @@ const routeConfig = {
 ```
 import * as React from 'react';
 import { View, Text } from 'react-native';
-import { XNavigationContainer, XNavigator } from 'react-xnavigation';
+import { XNavigationContainer, XNavigator } from 'react-native-xnavigation';
 
 
 const routeConfig = {
@@ -96,7 +96,7 @@ AppRegistry.registerComponent(
 ```
 
 ## 页面跳转
-修改路由表，增加/detail详情页面
+修改路由表，增加Detail详情页面
 ```
 
 function Home(){
@@ -126,7 +126,7 @@ const routeConfig = {
 ```
 修改Home页面，导入router
 ```
-import { router } from 'react-xnavigation';
+import { router } from 'react-native-xnavigation';
 function Home(){
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
@@ -160,7 +160,7 @@ function Detail({ route }){
 ## 添加拦截器
 修改路由表
 ```
-import { router } from 'react-xnavigation';
+import { router } from 'react-native-xnavigation';
 
 class LoginInterceptor {
   intercept() {
@@ -257,7 +257,7 @@ const routeConfig = {
 
 ## 底部Tabs
 支持底部Tabs页，如下所示
-![avatar](./images/ic_tabs.jpg)
+![img](./images/ic_tabs.jpg)
 
 路由表配置
 ```
@@ -336,7 +336,7 @@ options的取值，XNavigator的screenOptions也可以用，
 ```
 import * as React from 'react';
 import { View, Text } from 'react-native';
-import { XNavigationContainer, XNavigator } from 'react-xnavigation';
+import { XNavigationContainer, XNavigator } from 'react-native-xnavigation';
 
 
 const routeConfig = {
@@ -374,17 +374,17 @@ export default App;
 |  属性   | 介绍  |
 |  ----  | ----  |
 | initialRouteName  | [详细](https://reactnavigation.org/docs/bottom-tab-navigator) |
-| screenOptions | 取值看下文的路由表配置options[详细](https://reactnavigation.org/docs/bottom-tab-navigator) |
+| screenOptions | 取值看下文页面配置options[详细](https://reactnavigation.org/docs/bottom-tab-navigator) |
 
 
 
-每个页面的配置属性
+页面的配置属性
 |  属性   | 介绍  |
 |  ----  | ----  |
 | options | [详细](https://reactnavigation.org/docs/bottom-tab-navigator#options) |
 | component | 组件 |
 
-每个页面options配置，screenOptions也可以用
+页面options配置，screenOptions也可以用
 
 
 > 示例
