@@ -1,6 +1,8 @@
 ## 介绍
 本库基于React Navigation进一步封装的拦截器功能，让你轻松的在起始页跟目标页插入登录等多个拦截器。
 
+实现思路参考[博客](https://blog.csdn.net/JaydenKey/article/details/122647411)
+
 ## 环境
 环境要求
 ```
@@ -20,7 +22,7 @@ npm install react-native-xnavigation
   "dependencies": {
     "@react-navigation/bottom-tabs": "6.0.9",
     "@react-navigation/native": "^6.0.6",
-    "@react-navigation/native-stack": "^6.2.5",
+    "@react-navigation/stack": "^6.1.1",
     "react-native-safe-area-context": "^3.3.2",
     "react-native-screens": "^3.10.1",
     "react-native-gesture-handler": "^2.2.0",
