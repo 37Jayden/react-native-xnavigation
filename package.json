@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/37Jayden/react-xnavigation"
+    "url": "https://github.com/37Jayden/react-native-xnavigation"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
