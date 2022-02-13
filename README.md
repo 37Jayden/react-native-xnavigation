@@ -188,9 +188,9 @@ const routeConfig = {
   },
   "/detail": {
     interceptors:[
-			{
-				clazz: LoginInterceptor
-			}
+      {
+        clazz: LoginInterceptor
+      }
 		]
     component: Detail
   }
@@ -221,12 +221,12 @@ function BindCard(){
 const routeConfig = {
   "/detail": {
     interceptors:[
-			{
-				clazz: LoginInterceptor
-			},
       {
-				clazz: BindCardInterceptor
-			}
+        clazz: LoginInterceptor
+      },
+      {
+        clazz: BindCardInterceptor
+      }
 		]
     component: Detail
   },
@@ -256,8 +256,6 @@ const routeConfig = {
 所以绑卡页面路由为/my/bind-card，订单记录路由为/my/record
 
 ## 底部Tabs
-支持底部Tabs页，如下所示
-![img](./images/ic_tabs.jpg)
 
 路由表配置
 ```
