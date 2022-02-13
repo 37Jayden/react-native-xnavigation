@@ -191,7 +191,7 @@ const routeConfig = {
       {
         clazz: LoginInterceptor
       }
-		]
+    ]
     component: Detail
   }
 }
@@ -226,8 +226,7 @@ const routeConfig = {
       },
       {
         clazz: BindCardInterceptor
-      }
-		]
+      }]
     component: Detail
   },
   "/bind-card":{ 
