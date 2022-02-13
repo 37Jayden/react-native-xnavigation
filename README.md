@@ -288,6 +288,13 @@ const routeConfig = {
 
 ## API
 
+### router
+|  方法   | 介绍  | 参数说明
+|  push(name, params)  | 跳转页面 | name: 路由页面，params: 参数  |
+|  replace(name)  | 替换页面  |  name: 路由页面，params: 参数  |
+|  reset(name)  | 替换页面  |  name: 路由页面  |
+
+
 ### XNavigationContainer
 |  属性   | 介绍  |
 |  ----  | ----  |

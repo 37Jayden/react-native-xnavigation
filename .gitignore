@@ -4,3 +4,8 @@ node_modules
 dist
 release
 out
+build
+.gradle
+.iml
+local.properties
+.idea
