@@ -195,7 +195,10 @@ const routeConfig = {
       }
     ]
     component: Detail
-  }
+  },
+  "/login": {
+    component: Login
+  },
 }
 ```
 router.interceptNext()是告诉路由进行下一个拦截，如果没有拦截器的话，会直接进入目标页面，路由表interceptors支持多个拦截器，如下所示
@@ -289,6 +292,7 @@ const routeConfig = {
 
 ### router
 |  方法   | 介绍  | 参数说明
+|  ----  | ----  | ----  | 
 |  push(name, params)  | 跳转页面 | name: 路由页面，params: 参数  |
 |  replace(name)  | 替换页面  |  name: 路由页面，params: 参数  |
 |  reset(name)  | 替换页面  |  name: 路由页面  |
