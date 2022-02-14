@@ -296,6 +296,7 @@ const routeConfig = {
 |  push(name, params)  | 跳转页面 | name: 路由页面，params: 参数  |
 |  replace(name)  | 替换页面  |  name: 路由页面，params: 参数  |
 |  reset(name)  | 替换页面  |  name: 路由页面  |
+|  reset(n)  | 替换页面  |  n: 回退n个页面   |
 
 
 ### XNavigationContainer
